@@ -1,0 +1,328 @@
+J2EE
+ 
+ 
+Introduction to Enterprise Edition
+Distributed Multitier Applications
+J2EE Containers
+Web Services Support
+Packaging Applications
+J2EE 1.4 APIs
+ 
+Web server and Application Server
+Tomcat-Introduction
+Overview, installation, Configuring Tomcat
+Jboss server-Introduction
+Overview,installation and Configuration
+Comparison
+ 
+Ant Tool
+Basics and introductions,
+Building web applications
+Using Ant Tool
+ 
+Java Servlet Technology
+What is Web Application?
+What Is a Servlet?
+-          Intro: Web programming via CGI - Client vs server-side programming - Applets - Servlets - JSP
+
+ 
+Servlet Life Cycle
+Sharing Information
+Using Scope Objects
+Controlling Concurrent Access
+Getting Information from Requests
+Constructing Responses
+Filtering Requests and Responses
+Programming Filters
+Customized Requests and Responses
+Specifying Filter Mappings
+Invoking Other Web Resources
+Including Other Resources in
+the Response
+Transferring Control
+Accessing the Web Context
+Maintaining Client State
+Session Management
+Session Tracking
+Tracking Service Requests
+Notifying Methods to Shut Down
+Creating Polite Long-Running Methods
+ 
+JSP Technology
+JavaServer Pages Technology
+The Life Cycle of a JSP Page
+Translation and Compilation
+Creating Static Content
+Response and Page Encoding
+Creating Dynamic Content
+Using Objects within JSP Pages
+Expression Language
+Deactivating Expression Evaluation
+Implicit Objects
+Literals & Operators
+Reserved Words
+JavaBeans Components
+Reusing Content in JSP Pages
+Transferring Control
+Jsp: param Element
+Including an Applet
+Setting Properties for
+Groups of JSP Pages
+JSP scripting elements and directives-,
+ Declarations, expressions, directives,
+scriplets, comments,actions,implicite
+ JSP objects - Working with variable
+ scopes – page scope, request scope,
+ session scope, application scope- Using
+ java beens,custom tags, Declare Default
+ Content Type, Set Default Buffer Size,
+ JSTL,Expression Language
+ 
+Custom Tags in JSP Pages
+What Is a Custom Tag?
+Types of Tags
+Tags with Attributes
+Tags with Bodies
+Tags That Define Variables
+Communication between Tags
+Tag Library Descriptors
+Declaring Tag Files
+Declaring Tag Handlers
+Declaring Tag Attributes for
+Tag Handlers
+Declaring Tag Variables for Tag Handlers
+Programming Simple Tag Handlers
+Including Tag Handlers in
+Web Applications
+Cooperating Tags
+ 
+Javascript
+Java Script Introduction to JavaScript, Java script variables, Operators, Conditional statements, Functions, Loops, Popup Boxes, Events, Exception, Array, Validations.
+ 
+AJAX
+Introduction to AJAX
+AJAX Components
+HTML & CSS, JavaScript & DOM
+XMLHttpRequest
+Server Side Code
+AJAX - JSP Application
+Ajax with Servlet and JSP,
+ XML and JSON for Ajax,
+Database Application with Ajax,
+ Ajax libraries and Toolkits.
+ 
+Project Development
+Requirement analysis
+Requirement specification
+Requirements review
+Minutes of Meeting
+Preliminary design
+Preliminary design document
+Preliminary design review
+Time Sheet Management
+Detailed design
+Detailed design document
+Detailed design review
+Code, Code review, Comment review
+Unit testing, Implementation
+Acceptance testing
+Training, Maintenance
+ 
+IDE
+ 
+Eclipse, Netbeans-
+Introduction and overview
+Creating web projects using eclipse
+Configuration and set up the project
+Connecting to database SQL, MySQL
+Configuring Tomcat and Jboss application deployment, launching
+and debugging web applications,
+Detailed study of eclipse and netbeans
+Installing new software plugins-Adding plugins, Update site
+ 
+XML Programming
+Intoduction to XML
+Robustness & Extensibility
+XML Syntax & Documents
+XML Applications
+Elements and Tags
+Text and Attributes
+XML Declaration & Comments
+Processing Instructions
+Entities & Namespaces
+DTDs & Schemas
+Style sheets & XSL
+Valid XML-Understanding
+Document structure – prologue,
+ Elements, attributes- XML parsers – DOM parsers,
+ SAX parsers – Implementing XML DTDs,
+XML Namespaces, XML schema.
+SOAP, Writing XML with Java
+Output Streams, Writers, and Encodings
+Converting Flat Files to XML
+Reading XMLInputStreams and
+ 
+Webservices
+Web services Defining web services – universal resource identification, XML based technologies, Concepts of Remote Method Invocation. DCOM, web service architecture, advantage of web services, Technologies behind web services – SOAP, WSDL, and UDDI,RESTful Services,RESTful support in JAX-WS,Resouce Oriented Architecture.
+ 
+ 
+EJB
+ 
+Enterprise Beans
+What Is an Enterprise Bean?
+What Is a Session Bean?
+What Is an Entity Bean?
+What Is a Message-Driven Bean?
+Client Access with Interfaces
+The Contents of an Enterprise Bean
+Naming Conventions for
+Enterprise Beans
+The Life Cycles of Enterprise Beans
+ 
+Session Bean
+Session Bean Class
+Home Interface
+Remote Interface
+Helper Classes
+Creating the Application
+Stateless Session Bean
+Implementation Class
+ 
+Bean Managed Persistence
+Entity Bean Class
+Home Interface
+Remote Interface
+Mapping Table Relationships for BMP
+One-to-One Relationships
+One-to-Many Relationships
+Many-to-Many Relationships
+Primary Keys for BMP
+ 
+Container Managed Persistence
+Method Invocations
+Building and Running
+Creating the Database Tables
+Creating the Data Source
+Capturing the Table Schema
+Building the Enterprise Beans
+Primary Keys for CMP
+Finder and Selector Methods
+ 
+Message Driven Bean
+The Application Client
+The Message-Driven Bean Class
+The onMessage Method
+The ejbCreate and ejb
+Remove Methods
+Advanced Enterprise Beans
+EJB: Query Language
+ 
+Terminology
+Simplified Syntax
+Simple Finder Queries
+Navigate to Related Beans
+Other Conditional Expressions
+Select Queries
+BNF Symbols
+BNF Grammar of EJB QL
+FROM Clause
+Path Expressions
+WHERE Clause
+SELECT Clause
+ORDER BY Clause
+ 
+ 
+Java Message Service API
+Overview
+What Is Messaging?
+When Can You Use the JMS API?
+Basic JMS API Concepts
+JMS API Architecture
+The JMS API Programming Model
+Administered Objects
+Connections
+Sessions
+Message Producers
+Message Consumers
+Writing Simple JMS Client Applications
+ 
+ Advanced Technologies - Frameworks
+ 
+ 
+STRUTS
+Introduction
+Features and Architecture
+The MVC Design Pattern
+System State and Business Logic
+JSP Pages and Presentation
+Components
+ActionServlet and ActionMapping
+Struts Control Flow
+Building Model Components
+ActionForm Beans
+Forms and FormBean Interactions
+Automatic Form Validation
+Building Controller Components
+The ActionServlet
+ActionForm Classes & Action Classes
+The ActionMapping Implementation
+The Struts Configuration File
+Controller Configuration
+Module Configuration Files
+Add Struts Components To
+Your Application
+Validations Using Struts 2 Annotations
+Struts 2 with MySQL Database
+ Struts 2 with AJAX , struts tags, Tiles
+Logging in Struts Applications
+ 
+ 
+Java Server Faces
+Introduction to JSF
+JSF Features
+JSF for Web Application
+JSF components
+JSF Tags, Life Cycle & Architecture
+JSF Renderers
+JSF HTML Tag Reference
+JSF Core Tag Reference
+JSF Facelet Tag Reference
+JSF Navigation, JSF with Ajax
+using JSF in JSP,JSF with Ajax
+Richfaces
+Apache My faces
+ 
+Hibernate
+Introduction to O-R Mapping
+Hibernate Basics,
+Hibernate Architecture,
+Hibernate Configurations,
+POJO (Plain Old Java Classes) classes
+ and O/R Mapping
+ Object Identifier
+One-to-One Association
+One-to-Many Association
+Many-to-One Association
+Many-to-Many Association
+Collection Mapping
+Component Mapping
+Inheritance Mapping
+Hibernate Query Language
+Criteria Queries
+Hibernate in Web Application
+ 
+Spring
+ 
+Introduction
+Spring Core
+Dependency Injuction
+Aspect Oriented Programming
+Major concepts in Spring
+Spring Architecture
+Spring web MVC
+Installation Procedure
+Spring in Web Application
+Bean descriptor
+Spring and Struts
+Spring data access
+Spring using Hibernate
